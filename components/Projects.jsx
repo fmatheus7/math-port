@@ -1,6 +1,7 @@
 import React from "react";
 import anawhaki from "../public/assets/projects/anawhaki.png";
 import bibleverses from "../public/assets/projects/bibleverses.png";
+import stype from "../public/assets/projects/stype.png";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -21,6 +22,11 @@ const Projects = () => {
             title="Bible verses"
             backgroundImg={bibleverses}
             projectUrl="/bible"
+          />
+          <ProjectItem
+            title="Speed typing Game"
+            backgroundImg={stype}
+            projectUrl="/speedtype"
           />
         </div>
       </div>
