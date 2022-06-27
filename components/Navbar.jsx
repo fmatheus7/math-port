@@ -102,12 +102,7 @@ const Navbar = () => {
           <div>
             <div className='flex w-full items-center justify-between'>
               <Link href='/'>
-                <Image
-                  src='/../public/assets/MfLogo.png'
-                  width='87'
-                  height='35'
-                  alt='/'
-                />
+                <Image src={MfLogo} width='87' height='35' alt='/' />
               </Link>
               <div
                 onClick={handleNav}
