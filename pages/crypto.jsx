@@ -32,7 +32,7 @@ const crypto = () => {
           </p>
 
           <button className='px-8 py-2 mt-4 mr-8'>
-            <Link href='https://fmatheus.vercel.app/' target='_blank'>
+            <Link href='https://crypto-six-eta.vercel.app/' target='_blank'>
               DEMO
             </Link>
           </button>
